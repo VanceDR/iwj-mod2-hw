@@ -27,7 +27,7 @@ function unDo() {
     */
     var hoverImageContainer = document.getElementById('image') // id="image" Element
     // 1
-    hoverImageContainer.style.backgroundImage = "" // Blank
+    hoverImageContainer.style.backgroundImage = "url('')" // Blank
     // 2
     hoverImageContainer.innerHTML = "Hover over an image below to display here."
 
